@@ -1,0 +1,22 @@
+{
+  "name": "cs3219_taskf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node servers.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chris",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.7",
+    "node-fetch": "^3.0.0",
+    "redis": "^3.1.2"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5"
+  }
+}
